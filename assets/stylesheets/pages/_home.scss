@@ -1,6 +1,28 @@
 .mw_home {
-  margin: $spacing $spacing*2;
+  margin: $spacing;
+  .mw_header {
+    text-align: center;
+    .mw_title {
+      display: inline-block;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .mw_img {
+      display: inline-block;
+      text-align: center;
+      margin: $spacing;
+      img {
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
   iframe.twitter-timeline {
     width: 100%;
+  }
+  @media screen and (max-width: 450px) {
+    .mw_img:first-of-type {
+      display: none;
+    } 
   }
 }
