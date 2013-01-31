@@ -1,5 +1,6 @@
-// Every page should have a class on the body
-// Scope that in each file at the start
-._home {
-  
+.mw_home {
+  margin: $spacing $spacing*2;
+  iframe.twitter-timeline {
+    width: 100%;
+  }
 }
