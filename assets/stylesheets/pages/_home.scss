@@ -1,5 +1,6 @@
 .mw_home {
   margin: $spacing;
+  min-height: 600px;
   .mw_header {
     text-align: center;
     .mw_title {
@@ -19,6 +20,19 @@
   }
   iframe.twitter-timeline {
     width: 100%;
+  }
+  a.twitter-timeline {
+    display: inline-block;
+    min-height: 600px;
+  }
+  .mw_counter {
+    text-align: center;
+    margin-top: $spacing;
+  }
+  .mw_footer {
+    font-size: 8px;
+    text-align: center;
+    margin-top: $spacing;
   }
   @media screen and (max-width: 450px) {
     .mw_img:first-of-type {
